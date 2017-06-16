@@ -38,6 +38,6 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.3.1'
     testCompile 'junit:junit:4.12'
 
-//    compile 'com.github.yuandongping:WristbandPropertyLibrary:1.0.0'
-    compile 'com.yanzhenjie:permission:1.0.5'
+    compile 'com.github.yuandongping:WristbandPropertyLibrary:1.0.0'
+//    compile 'com.yanzhenjie:permission:1.0.5'
 }

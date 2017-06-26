@@ -1,9 +1,9 @@
 # GoogleCameraLibrary
-1.0.0
+1.0.2
 
 
 ```
 dependencies {
-	        compile 'com.github.yuandongping:GoogleCameraLibrary:1.0.1'
+	        compile 'com.github.yuandongping:GoogleCameraLibrary:1.0.2'
 	}
 ```

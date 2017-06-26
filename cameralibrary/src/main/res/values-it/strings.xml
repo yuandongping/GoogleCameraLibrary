@@ -17,9 +17,9 @@
     <!--权限-->
     <string name="message_post_succeed">Ottenere successo Permessi</string>
     <string name="message_post_failed">Il mancato di ottenere il permesso</string>
-    <string name="message_setting_back">Arretrato da parte dell'utente</string>
+    <string name="message_setting_back">Arretrato da parte dell\'utente</string>
 
-    <string name="press_the_bracelet_button_to_take_pictures">Premere il pulsante di avvio per prendere l'anello foto</string>
+    <string name="press_the_bracelet_button_to_take_pictures">Premere il pulsante di avvio per prendere l\'anello foto</string>
     <string name="not_conn_wristband">bracciale scollegato</string>
 
 

@@ -4,8 +4,8 @@
     <!--相机拍照-->
     <string name="camera_permission_confirmation">This app demonstrates the usage of CameraView. In order to do that, it needs permission to access camera.</string>
     <string name="camera_permission_not_granted">Camera app cannot do anything without camera permission.</string>
-    <string name="read_external_storage_permission_confirmation">Please open the storage permissions</string>
-    <string name="read_external_storage_permission_not_granted">App does not open storage permissions</string>
+    <string name="read_external_storage_permission_confirmation">Open opslag rechten</string>
+    <string name="read_external_storage_permission_not_granted">app is niet opslag rechten te openen</string>
     <string name="picture_taken">Picture taken</string>
     <string name="aspect_ratio">Aspect ratio</string>
     <string name="switch_flash">Switch flash</string>
@@ -15,12 +15,12 @@
     <string name="flash_on">Flash on</string>
 
     <!--权限-->
-    <string name="message_post_succeed">Get permission successfully</string>
-    <string name="message_post_failed">Failed to get permission</string>
-    <string name="message_setting_back">Press the bracelet button to take pictures</string>
+    <string name="message_post_succeed">Krijg Machtigingen succes</string>
+    <string name="message_post_failed">Het niet om toestemming te krijgen</string>
+    <string name="message_setting_back">Stel terug van de gebruiker</string>
 
-    <string name="press_the_bracelet_button_to_take_pictures">Press the bracelet button to take pictures</string>
-    <string name="not_conn_wristband">The bracelet is not connected</string>
+    <string name="press_the_bracelet_button_to_take_pictures">Druk op de startknop om de foto ring te nemen</string>
+    <string name="not_conn_wristband">armband los</string>
 
 
 </resources>

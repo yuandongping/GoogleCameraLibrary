@@ -4,8 +4,8 @@
     <!--相机拍照-->
     <string name="camera_permission_confirmation">This app demonstrates the usage of CameraView. In order to do that, it needs permission to access camera.</string>
     <string name="camera_permission_not_granted">Camera app cannot do anything without camera permission.</string>
-    <string name="read_external_storage_permission_confirmation">Please open the storage permissions</string>
-    <string name="read_external_storage_permission_not_granted">App does not open storage permissions</string>
+    <string name="read_external_storage_permission_confirmation">Les droits de stockage ouverts</string>
+    <string name="read_external_storage_permission_not_granted">app est pas ouvert droits de stockage</string>
     <string name="picture_taken">Picture taken</string>
     <string name="aspect_ratio">Aspect ratio</string>
     <string name="switch_flash">Switch flash</string>
@@ -15,12 +15,13 @@
     <string name="flash_on">Flash on</string>
 
     <!--权限-->
-    <string name="message_post_succeed">Get permission successfully</string>
-    <string name="message_post_failed">Failed to get permission</string>
-    <string name="message_setting_back">Press the bracelet button to take pictures</string>
+    <string name="message_post_succeed">Obtenir les autorisations succès</string>
+    <string name="message_post_failed">Le défaut d\'obtenir l\'autorisation</string>
+    <string name="message_setting_back">Situé en retrait de l\'utilisateur</string>
 
-    <string name="press_the_bracelet_button_to_take_pictures">Press the bracelet button to take pictures</string>
-    <string name="not_conn_wristband">The bracelet is not connected</string>
+    <string name="press_the_bracelet_button_to_take_pictures">Appuyez sur le bouton de démarrage pour prendre l\'anneau d
+        \'image</string>
+    <string name="not_conn_wristband">Bracelet sans lien</string>
 
 
 </resources>

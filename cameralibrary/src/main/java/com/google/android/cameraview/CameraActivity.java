@@ -45,7 +45,7 @@ public abstract class CameraActivity extends AppCompatActivity implements
         ActivityCompat.OnRequestPermissionsResultCallback,
         OnCameraListener {
 
-    private String path = "Wristband2017";
+    private String path = "Wristband";
     private static final String TAG = CameraActivity.class.getSimpleName();
     private static final String FRAGMENT_DIALOG = "dialog";
 
@@ -156,14 +156,14 @@ public abstract class CameraActivity extends AppCompatActivity implements
 
     /***
      *
-     *获取蓝牙连接状态
+     *开启手环蓝牙拍照
      * CommandUtils.writeCameraOpenCommand(this, this);
      */
     public abstract void writeCameraOpenCommand();
 
      /***
      *
-     *获取蓝牙连接状态
+      *关闭手环蓝牙拍照
      * CommandUtils.writeCameraCloseCommand(this);
      */
     public abstract void writeCameraCloseCommand();
@@ -176,10 +176,11 @@ public abstract class CameraActivity extends AppCompatActivity implements
         if(getWristbandConnStatus()) {//手环已连接
             //发送拍照开启命令
             writeCameraOpenCommand();
-            bleStatusTv.setText("按下手环按键即可拍照");
+            bleStatusTv.setText(getResources().getString(R.string.press_the_bracelet_button_to_take_pictures));
         }else {
-            Toast.makeText(this, "手环未连接", Toast.LENGTH_SHORT).show();
-            bleStatusTv.setText("手环未连接");
+            String notConn = getResources().getString(R.string.not_conn_wristband);
+            Toast.makeText(this, notConn, Toast.LENGTH_SHORT).show();
+            bleStatusTv.setText(notConn);
         }
     }
 

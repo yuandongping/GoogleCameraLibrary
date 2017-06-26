@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--相机拍照-->
+    <string name="camera_permission_confirmation">This app demonstrates the usage of CameraView. In order to do that, it needs permission to access camera.</string>
+    <string name="camera_permission_not_granted">Camera app cannot do anything without camera permission.</string>
+    <string name="read_external_storage_permission_confirmation">Права Открытое хранение</string>
+    <string name="read_external_storage_permission_not_granted">приложение не открывать права хранения</string>
+    <string name="picture_taken">Picture taken</string>
+    <string name="aspect_ratio">Aspect ratio</string>
+    <string name="switch_flash">Switch flash</string>
+    <string name="switch_camera">Switch camera</string>
+    <string name="flash_auto">Flash auto</string>
+    <string name="flash_off">Flash off</string>
+    <string name="flash_on">Flash on</string>
+
+    <!--权限-->
+    <string name="message_post_succeed">Получить успех разрешений</string>
+    <string name="message_post_failed">Невозможность получить разрешение</string>
+    <string name="message_setting_back">Установите обратно от пользователя</string>
+
+    <string name="press_the_bracelet_button_to_take_pictures">Нажмите кнопку Пуск, чтобы сделать снимок кольцо</string>
+    <string name="not_conn_wristband">Браслет несвязанный</string>
+
+
+</resources>

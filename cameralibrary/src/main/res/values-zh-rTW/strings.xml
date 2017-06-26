@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--相机拍照-->
+    <string name="camera_permission_confirmation">此應用程序演示了相機視圖的使用。為了做到這一點，它需要許可才能訪問攝像頭。</string>
+    <string name="camera_permission_not_granted">相機應用程序在沒有攝像機許可的情況下無法做任何事情。</string>
+    <string name="read_external_storage_permission_confirmation">請打開存儲權限</string>
+    <string name="read_external_storage_permission_not_granted">app沒有打開存儲權限</string>
+    <string name="picture_taken">拍照</string>
+    <string name="aspect_ratio">長寬比</string>
+    <string name="switch_flash">切換閃光燈</string>
+    <string name="switch_camera">相機開關</string>
+    <string name="flash_auto">閃光燈自動</string>
+    <string name="flash_off">關閉閃光</string>
+    <string name="flash_on">閃光</string>
+
+    <!--权限-->
+    <string name="message_post_succeed">獲取權限成功</string>
+    <string name="message_post_failed">獲取權限失敗</string>
+    <string name="message_setting_back">用戶從設置回來了</string>
+
+    <string name="press_the_bracelet_button_to_take_pictures">按下手環按鍵即可拍照</string>
+    <string name="not_conn_wristband">手環未連接</string>
+
+
+</resources>
